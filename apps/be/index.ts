@@ -1,6 +1,6 @@
 // apps/be/index.ts
 import { serve } from "bun";
-import { prisma } from "@/packages/db";
+import { prisma } from "../../packages/db";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 
